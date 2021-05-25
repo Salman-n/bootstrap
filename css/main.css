@@ -1,0 +1,136 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+    font-family: 'Strait', sans-serif;
+    }
+.navbar {
+    background: #290197;
+    padding: 10px;
+    font-family: 'Strait', sans-serif;
+    }
+.nav-link,
+.navbar-brand {
+    color: rgb(57, 240, 240);
+    cursor: pointer;
+    }
+.nav-link {
+    margin-right: 2em !important;
+    }
+.nav-link:hover {
+    color: #000;
+    }
+.navbar-collapse {
+    justify-content: flex-end;
+    }
+.header {
+        background-image: url('https://cdn.wallpapersafari.com/44/51/XFgMRH.jpg');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 100vh;
+    }
+    .overlay {
+        position: absolute;
+        min-height: 100%;
+        min-width: 100%;
+        left: 0;
+        top: 0;
+        background: rgba(0, 0, 0, 0.6);
+    }
+    .description {
+        left: 50%;
+        position: absolute;
+        top: 45%;
+        transform: translate(-50%, -55%);
+        text-align: center;
+        }
+    .description h1 {
+        color: rgb(57, 240, 240);
+        }
+    .description p {
+        color: #fff;
+        font-size: 1.3rem;
+        line-height: 1.5;
+        }
+        .description button {
+            border: 1px solid rgb(57, 240, 240);
+            background: #290197;
+            border-radius: 3;
+            color: rgb(57, 240, 240);
+            }
+            .description button:hover {
+            border: 1px solid rgb(32, 221, 205);
+            background: rgb(13, 214, 214);
+            color: rgba(5, 5, 5, 0.774);
+            }
+            .features {
+                margin: 4em auto;
+                padding: 1em;
+                position: relative;
+            }
+            .feature-title {
+                color: #333;
+                font-size: 1.3rem;
+                font-weight: 700;
+                margin-bottom: 20px;
+                text-transform: uppercase;
+            }
+            .features img {
+                -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+                -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+                box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+                margin-bottom: 16px;
+            }
+                .features .form-control,
+                .features input {
+                border-radius: 0;
+                margin-top: 10px;
+                }
+                .features .btn {
+                background-color: #0b228a;
+                border: 1px solid #0b228a;
+                color: #fff;
+                margin-top: 15px;
+                width: 100%;
+                }
+                .features .btn:hover {
+                    background-color: #333;
+                    border: 1px solid #333;
+                }
+                .page-footer {
+                    background-color: rgb(6, 12, 104);
+                    color: rgb(32, 221, 205);
+                    padding: 60px 0 30px;
+                }
+                .footer-copyright {
+                    color: rgb(32, 172, 165);
+                    padding: 40px 0;
+                }
+                @media (max-width: 575.98px) {
+                .description {
+                    left: 0;
+                    padding: 0 15px;
+                    position: absolute;
+                    top: 10%;
+                    transform: none;
+                    text-align: center;
+                }
+                .description h1 {
+                    font-size: 2em;
+                }
+                .description p {
+                    font-size: 1.2rem;
+                }
+                .features {
+                    margin: 0;
+                }
+                }
+                    
+                
+
+                
+            
+        
+        
+    
